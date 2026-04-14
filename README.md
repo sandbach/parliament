@@ -10,7 +10,7 @@ It uses the [Members API](https://members-api.parliament.uk/index.html) to find 
 
 The simplest invocation looks up every member of the House of Commons and writes their data to a CSV file called `output.csv`, which can then be imported to Anki.
 
-The argument `--delay` changes the delay (in milliseconds) between requests to the API. Please maintain a reasonable delay, so as not to subject [https://www.parliament.uk/](parliament.uk) to a barrage of requests in too short a space of time.
+The argument `--delay` changes the delay (in milliseconds) between requests to the API. Please maintain a reasonable delay, so as not to subject [parliament.uk](https://www.parliament.uk/) to a barrage of requests in too short a space of time.
 
 Run `python parliament.py --help` to see the full range of command line arguments.
 
